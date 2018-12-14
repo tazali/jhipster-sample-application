@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.jhipster.example",
+    "packageFolder": "com/jhipster/example",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "MjMxYmU1NDYyZTAyZjM4OTIwMTY0OTc0YzMyNmEyNDg5YTdmNjZhYjRhMmE5M2I4ZjA1YjM5MTg1OTFiODFhMWE4N2EzMjczOTI1NjVjMGNhODAxNDUyYTNjZWI1Y2I0ZjhkZmI5YTBjNjI1MmYyZGQ5NmJiYzZhNzAwMzI1MTI=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "tazali",
+  "repository-name": "jhipster-sample-application"
+}
